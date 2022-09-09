@@ -184,3 +184,31 @@ a:hover {
 .gallery-row img:hover {
     opacity: 0.8;
 }
+
+/* Styling Booking section elements */
+.booking {
+    margin: 1em auto 1em auto;
+    width: 40%;
+    padding: 1em;
+    background-color: #d6edf7;
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px #d0d2d6;
+  }
+  
+.booking input:hover {
+    border: 1px solid #60a0e4;
+}
+  
+.submit {
+    width: 100%;
+    color: #272722;
+    background-color: #fff;
+    border: 1px solid #60a0e4;
+    border-radius: 0.5em;
+    padding: 5px;
+}
+  
+.submit:hover {
+    background-color: #60a0e4;
+    color: #272722;
+}
