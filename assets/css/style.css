@@ -185,6 +185,19 @@ a:hover {
     opacity: 0.8;
 }
 
+/* Styling iframe element for Google Map */
+iframe {
+    width: 100%;
+    height: 15em;
+    display: block;
+}
+
+/* Styling YouTube embeded video */
+.youtube {
+    height: 30em;
+    display: block;
+}
+
 /* Styling Booking section elements */
 .booking {
     margin: 1em auto 1em auto;
@@ -213,9 +226,3 @@ a:hover {
     color: #272722;
 }
 
-/* Styling iframe element for Google Map */
-iframe {
-    width: 100%;
-    height: 15em;
-    display: block;
-}
