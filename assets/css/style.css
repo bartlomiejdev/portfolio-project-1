@@ -226,3 +226,46 @@ iframe {
     color: #272722;
 }
 
+/* Styling Footer section / social media icons / Font-Awesome icons */
+.footer {
+    color: #7a6d5b;
+}
+  
+.icons-header {
+    font-size: 0.75em;
+    padding: 0 0.25em;
+  }
+  
+.icons-social {
+    font-size: 1.5em;
+}
+  
+.icons-social i {
+    font-size: 1.5em;
+    padding: 5px;
+}
+  
+.icons-social i:hover {
+    color: #60a0e4;
+}
+  
+.icons-reasons {
+    color: #60a0e4;
+}
+  
+.copyright {
+    text-align: center;
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer a {
+    text-decoration: none;
+}
+  
+footer a:hover {
+    color: #60a0e4;
+    text-decoration: underline;
+}
+
