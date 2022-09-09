@@ -156,3 +156,31 @@ a:hover {
     text-align: left;
     margin: 20px;
 }
+
+/* Styling Gallery section and image grid based on "Responsive Image Grid" tutorial from w3schools.com */
+.gallery-row {
+    background-color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+  
+.gallery-column {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0;
+}
+  
+.gallery-column img {
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 100%;
+}
+  
+.gallery-row img:hover {
+    opacity: 0.8;
+}
