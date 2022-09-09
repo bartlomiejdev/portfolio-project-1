@@ -115,3 +115,44 @@ a:hover {
     font-size: 2em;
     font-weight: 700;
 }
+
+/* Styling containers, removing margins - to override margins for bootstrap containers*/
+.container-fluid {
+    padding: 0;
+}
+  
+.center {
+    text-align: center;
+}
+  
+.left {
+    text-align: left;
+}
+  
+.justify {
+    text-align: justify;
+}
+  
+#offer .container {
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px #d0d2d6;
+    padding: 0 50px;
+}
+  
+.accordion-header button {
+    color: #272722;
+    background-color: #d6edf7;
+    font-weight: 500;
+    width: 100%;
+}
+  
+.accordion-item {
+    background-color: #d6edf7;
+}
+  
+.accordion-body {
+    background: #d6edf7;
+    color: #333;
+    text-align: left;
+    margin: 20px;
+}
