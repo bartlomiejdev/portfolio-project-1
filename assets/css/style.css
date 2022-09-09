@@ -73,3 +73,45 @@ a:hover {
     background-color: #60a0e4;
     border: 1px solid #29507b;
 }
+
+/* 3 ID's for carousel cover images and it's caption */
+#cover-photo1 {
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1632823469850-2f77dd9c7f93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+      center / cover;
+}
+  
+#cover-photo2 {
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80)
+      center / cover;
+}
+  
+#cover-photo3 {
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1632823469901-5d2cfff5ba50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)
+      center / cover;
+}
+  
+.caption {
+    width: 100vw;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+  
+.caption h1 {
+    position: relative;
+    top: 50%;
+    font-size: 4em;
+    font-weight: 900;
+}
+  
+.caption p {
+    position: relative;
+    top: 50%;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+}
