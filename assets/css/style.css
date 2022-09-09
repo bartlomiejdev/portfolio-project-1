@@ -7,4 +7,50 @@ body {
     font-weight: 400;
     color: #272722;
     background-color: #fff;
-  }
+}
+
+/* Styling anchor element */
+a {
+    color: inherit;
+    text-decoration: underline 1px solid #60a0e4;
+}
+  
+a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+    text-decoration-color: #60a0e4;
+}
+/* Customising Bootstrap Navbar */
+.navbar {
+    color: #60a0e4;
+    background-color: #333;
+}
+  
+.navbar a {
+    color: #60a0e4;
+    font-weight: 500;
+    text-decoration: none;
+}
+  
+.navbar a:focus {
+    color: #272722;
+    background-color: #60a0e4;
+}
+  
+.navbar-toggler {
+    background-color: #60a0e4;
+    font-size: medium;
+}
+  
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.navbar-nav li {
+    display: inline-block;
+}
+  
+.navbar-nav li:hover {
+    background-color: #60a0e4;
+}
