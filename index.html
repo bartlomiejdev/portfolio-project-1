@@ -437,6 +437,118 @@
       </section>
       <!-- Gallery section END -->
 
+      <!-- Booking section START -->
+    <section id="booking">
+        <div class="container py-5">
+          <div class="col-md-auto">
+            <h2 class="text-center py-5">
+              Book your appointment
+              <i class="fa-solid fa-address-card icons-header"></i>
+            </h2>
+            <p class="text-center py-5">
+              We will contact you to talk about free slots and estimated time.
+          </div>
+          <div class="booking col">
+            <!-- Booking form START  -->
+            <form method="get" action="thankyou.html">
+              <div>
+                <label for="name">Your full name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  placeholder="John/Jane Doe"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="email">E-mail:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="E-mail"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="phone">Phone:</label>
+                <!-- Pattern to validate phone number format found on developer.mozilla.org -->
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form-control"
+                  pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                  placeholder="10 digits"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="date">Date: </label>
+                <input
+                  type="date"
+                  id="date"
+                  name="date"
+                  class="form-control"
+                  required=""
+                />
+              </div>
+              <div>
+                <label for="offers">Choose the offer:</label>
+                <input
+                  list="level"
+                  id="offers"
+                  name="levels"
+                  class="form-control"
+                  required=""
+                />
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="policy"
+                  class=""
+                  name="policy"
+                  value="policy"
+                  style="margin: 0; width: 13px; height: 13px; overflow: hidden"
+                  required=""
+                />
+                <label for="policy">
+                  I agree to
+                  <a
+                    href="#"
+                    aria-label="Agree to booking policy to continue"
+                    title="Read our booking policy"
+                    >Booking Policy</a
+                  ></label
+                >
+              </div>
+              <datalist id="level">
+                <option value="Colorless protective films" selected></option>
+                <option value="Elastomeric coatings"></option>
+                <option value="Polishing the paint"></option>
+                <option value="Interior detailing"></option>
+                <option value="Color change / styling"></option>
+              </datalist>
+  
+              <button
+                type="submit"
+                value="Submit"
+                class="submit"
+                aria-label="Submit the form"
+              >
+                <i class="fa-solid fa-paper-plane"></i> Submit
+              </button>
+            </form>
+            <!-- Booking form END -->
+          </div>
+        </div>
+      </section>
+      <!-- Booking section END-->
+
       <!-- Bootstrap JavaScript START -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
