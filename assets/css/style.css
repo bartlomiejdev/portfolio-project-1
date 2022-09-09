@@ -54,3 +54,22 @@ a:hover {
 .navbar-nav li:hover {
     background-color: #60a0e4;
 }
+
+/* Styling Call-To-Action button used in the Carousel caption and "offer" section. */
+.button-cta {
+    position: relative;
+    top: 50%;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    color: #272722;
+    background-color: #60a0e4;
+    border: 1px solid #60a0e4;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+  
+.button-cta:hover {
+    background-color: #60a0e4;
+    border: 1px solid #29507b;
+}
