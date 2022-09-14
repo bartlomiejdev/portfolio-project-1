@@ -276,4 +276,48 @@ footer a:hover {
     text-align: center;
     background: url("https://images.pexels.com/photos/11186589/pexels-photo-11186589.jpeg")
       center / cover;
-  }
+}
+
+.error-caption {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background: url("https://images.pexels.com/photos/11653455/pexels-photo-11653455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+      center / cover;
+}
+  
+.thankyou-caption h1 {
+    position: relative;
+    top: 20%;
+    font-size: 2em;
+    font-weight: 900;
+    background-color: #c5dbf3;
+}
+  
+.thankyou-caption p {
+    position: relative;
+    top: 20%;
+    margin: auto;
+    color: #accff4;
+    /* background-color: #333; */
+    font-size: 1em;
+    font-weight: 700;
+}
+  
+.error-caption h1 {
+    position: relative;
+    top: 20%;
+    font-size: 2em;
+    font-weight: 900;
+    background-color: #60a0e4;
+}
+  
+.error-caption p {
+    position: relative;
+    top: 20%;
+    margin: auto;
+    color: #60a0e4;
+    background-color: #333;
+    font-size: 1em;
+    font-weight: 700;
+}
