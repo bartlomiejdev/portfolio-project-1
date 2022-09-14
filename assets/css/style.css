@@ -268,3 +268,12 @@ footer a:hover {
     color: #60a0e4;
     text-decoration: underline;
 }
+
+/* Stylink "thankyou" and "404" pages */
+.thankyou-caption {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background: url("https://images.pexels.com/photos/11186589/pexels-photo-11186589.jpeg")
+      center / cover;
+  }
