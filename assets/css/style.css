@@ -135,7 +135,6 @@ a:hover {
   
 #offer .container {
     border-radius: 2%;
-    box-shadow: 10px 10px 5px #d0d2d6;
     padding: 0 50px;
 }
   
@@ -205,7 +204,6 @@ iframe {
     padding: 1em;
     background-color: #d6edf7;
     border-radius: 1em;
-    box-shadow: 10px 10px 5px #d0d2d6;
 }
   
 .booking input:hover {
