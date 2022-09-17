@@ -96,16 +96,19 @@ a:hover {
 .caption {
     width: 100vw;
     height: 100vh;
-    color: #ffffff;
+    color: #d5d5d4;
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   
 .caption h1 {
     position: relative;
     top: 50%;
     font-size: 4em;
-    font-weight: 900;
+    font-weight: 400;
 }
   
 .caption p {
@@ -114,11 +117,14 @@ a:hover {
     color: #ffffff;
     font-size: 2em;
     font-weight: 700;
+    width: 50%;
+    color: #d5d5d4;
 }
 
 /* Styling containers, removing margins - to override margins for bootstrap containers*/
 .container-fluid {
     padding: 0;
+    height: 400px;
 }
   
 .center {
@@ -297,7 +303,6 @@ footer a:hover {
     top: 20%;
     margin: auto;
     color: #accff4;
-    /* background-color: #333; */
     font-size: 1em;
     font-weight: 700;
 }
