@@ -341,14 +341,14 @@ footer a:hover {
     .container-fluid,
     .container {
       width: 100%;
-      margin: 0;
-      padding: 0px;
+      margin: 50px;
+      padding: 50px;
     }
   
     .accordion-item p {
       text-align: left;
     }
-  
+
     .booking {
       margin: auto;
       width: 100%;
@@ -368,8 +368,7 @@ footer a:hover {
   
     #offer .container {
       border-radius: 0;
-      box-shadow: none;
-      padding: 0px;
+      padding: 50pxpx;
     }
   
     #cover-photo1 {
