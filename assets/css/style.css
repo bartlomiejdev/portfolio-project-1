@@ -324,3 +324,323 @@ footer a:hover {
     font-size: 1em;
     font-weight: 700;
 }
+
+/* Media queries - responsiveness */
+
+/* X-small devices, phones in portrait mode 576px*/
+@media (max-width: 575.98px) {
+    body {
+      font-size: 1em;
+    }
+  
+    p {
+      padding: 10px;
+      text-align: left;
+    }
+  
+    .container-fluid,
+    .container {
+      width: 100%;
+      margin: 0;
+      padding: 0px;
+    }
+  
+    .accordion-item p {
+      text-align: left;
+    }
+  
+    .booking {
+      margin: auto;
+      width: 100%;
+      background-color: #d6edf7;
+      border-radius: 1em;
+      box-shadow: none;
+    }
+  
+    .row {
+      width: 100%;
+    }
+  
+    .col {
+      display: block;
+      width: 100%;
+    }
+  
+    #offer .container {
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0px;
+    }
+  
+    #cover-photo1 {
+      height: 50vh;
+      background: url(../../assets/img/cover1_mobile.webp) center / cover;
+    }
+  
+    #cover-photo2 {
+      height: 50vh;
+      background: url(../../assets/img/cover2_mobile.webp) center / cover;
+    }
+  
+    #cover-photo3 {
+      height: 50vh;
+      background: url(../../assets/img/cover3_mobile.webp) center / cover;
+    }
+  
+    .caption {
+      width: 100vw;
+      height: 50vh;
+      color: #fff;
+      text-align: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    }
+  
+    .caption h1 {
+      top: 30%;
+      text-align: center;
+      font-size: 2em;
+      font-weight: 600;
+    }
+  
+    .button-cta {
+      position: relative;
+      top: 70%;
+      font-size: 1em;
+    }
+  
+    .caption button,
+    .caption p {
+      display: none;
+    }
+  
+    .thankyou-caption h1 {
+      font-size: 2em;
+    }
+  
+    .thankyou-caption p {
+      font-size: 1em;
+    }
+  
+    #gallery img,
+    #offer img {
+      max-width: 100vw;
+      height: auto;
+    }
+  
+    .footer div,
+    p {
+      display: block;
+      text-align: center;
+    }
+  
+    .gallery-row {
+      width: 100%;
+    }
+  
+    .gallery-column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+  /* Gallery images are "viewport width" up to 600px */
+@media screen and (max-width: 600px) {
+    .gallery-row {
+      width: 100%;
+    }
+  
+    .gallery-column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  
+    #gallery img {
+      width: 100%;
+    }
+}
+  
+  /* Tablets, up to 768px */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    body {
+      font-size: 1em;
+    }
+  
+    p {
+      padding: 10px;
+      text-align: left;
+    }
+  
+    .thankyou-caption h1 {
+      font-size: 2em;
+    }
+  
+    .thankyou-caption p {
+      font-size: 1em;
+    }
+  
+    .accordion-item p {
+      text-align: left;
+    }
+  
+    .booking {
+      margin: auto;
+      width: 100%;
+      background-color: #d6edf7;
+      border-radius: 1em;
+      box-shadow: none;
+    }
+  
+    .row {
+      width: 100%;
+    }
+  
+    .col {
+      display: block;
+      width: 100%;
+    }
+  
+    /* Smaller carousel cover images for mobile use*/
+    #cover-photo1 {
+      height: 60vh;
+      background: url(../../assets/img/cover1_mobile.webp) center / cover;
+    }
+  
+    #cover-photo2 {
+      height: 60vh;
+      background: url(../../assets/img/cover2_mobile.webp) center / cover;
+    }
+  
+    #cover-photo3 {
+      height: 60vh;
+      background: url(../../assets/img/cover3_mobile.webp) center / cover;
+    }
+  
+    .caption {
+      width: 100vw;
+      height: 60vh;
+      color: #fff;
+      text-align: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    }
+    */ .caption h1 {
+      top: 40%;
+      text-align: center;
+      font-size: 2em;
+      font-weight: 600;
+    }
+  
+    .caption button {
+      display: none;
+    }
+  
+    .caption p {
+      font-size: 1.5em;
+    }
+  
+    .footer div,
+    p {
+      display: block;
+      text-align: center;
+    }
+}
+  
+  /* Medium devices (tablets, bigger than 768 px but less than 992px) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    p {
+      padding: 10px;
+      text-align: left;
+    }
+  
+    .thankyou-caption h1 {
+      font-size: 2em;
+    }
+  
+    .thankyou-caption p {
+      font-size: 1em;
+    }
+  
+    .accordion-item p {
+      text-align: left;
+    }
+  
+    .booking {
+      margin: 1em auto 1em auto;
+      width: 100%;
+      padding: 1em;
+      background-color: #d6edf7;
+      border-radius: 1em;
+    }
+  
+    /* smaller carousel cover images for mobile use */
+    #cover-photo1 {
+      height: 60vh;
+      background: url(../../assets/img/cover1_mobile.webp) center / cover;
+    }
+  
+    #cover-photo2 {
+      height: 60vh;
+      background: url(../../assets/img/cover2_mobile.webp) center / cover;
+    }
+  
+    #cover-photo3 {
+      height: 60vh;
+      background: url(../../assets/img/cover3_mobile.webp) center / cover;
+    }
+  
+    .caption {
+      width: 100vw;
+      height: 60vh;
+      color: #ffffff;
+      text-align: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    }
+    */ .caption h1 {
+      top: 40%;
+      text-align: center;
+      font-size: 2em;
+      font-weight: 600;
+    }
+  
+    .caption p {
+      font-size: 1em;
+    }
+  
+    #carousel button {
+      top: 60%;
+    }
+  
+    .footer div,
+    p {
+      display: block;
+      text-align: center;
+    }
+}
+  
+  /* Large devices (laptops, desktops, less than 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .caption {
+      width: 100vw;
+      height: 100vh;
+      color: #fff;
+      text-align: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    }
+  
+    .caption h1 {
+      top: 40%;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: 600;
+    }
+  
+    .caption p {
+      font-size: 1.5em;
+    }
+  
+    .caption button {
+      position: relative;
+      top: 70%;
+    }
+}
