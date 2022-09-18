@@ -99,6 +99,7 @@ Range of offers to get your car next life or to keep it alive!
 
 - Some CSS bugs were not fixed as got mixed with Bootstrap framework and CSS overwrite file. Lack of time was the main reason to find out and fix bugs.
 - No images with lower resolutions were uploaded for smaller devices due to deadline of project.
+- Some containers and content of the page does not work on smaller screen devices, could not find the bugs but will be fixed in near future.
 
 
 ## Deployment
