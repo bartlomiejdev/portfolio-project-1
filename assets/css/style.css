@@ -328,12 +328,7 @@ footer a:hover {
 
 /* X-small devices, phones in portrait mode 576px*/
 @media (max-width: 575.98px) {
-
-    *, ::after, ::before {
-    box-sizing: border-box;
-    }
-
-    body { 
+    body {
       font-size: 1em;
     }
   
@@ -369,7 +364,7 @@ footer a:hover {
       width: 100%;
     }
   
-    .container {
+    #offer .container {
       border-radius: 0;
       padding: 50px;
     }
