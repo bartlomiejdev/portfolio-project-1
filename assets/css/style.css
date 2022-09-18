@@ -114,7 +114,6 @@ a:hover {
 .caption p {
     position: relative;
     top: 50%;
-    color: #ffffff;
     font-size: 2em;
     font-weight: 700;
     width: 50%;
@@ -329,7 +328,12 @@ footer a:hover {
 
 /* X-small devices, phones in portrait mode 576px*/
 @media (max-width: 575.98px) {
-    body {
+
+    *, ::after, ::before {
+    box-sizing: border-box;
+    }
+
+    body { 
       font-size: 1em;
     }
   
@@ -354,7 +358,6 @@ footer a:hover {
       width: 100%;
       background-color: #d6edf7;
       border-radius: 1em;
-      box-shadow: none;
     }
   
     .row {
@@ -366,9 +369,9 @@ footer a:hover {
       width: 100%;
     }
   
-    #offer .container {
+    .container {
       border-radius: 0;
-      padding: 50pxpx;
+      padding: 50px;
     }
   
     #cover-photo1 {
