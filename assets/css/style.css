@@ -129,6 +129,13 @@ a:hover {
 .center {
     text-align: center;
 }
+
+.center-images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
   
 .left {
     text-align: left;
@@ -138,7 +145,7 @@ a:hover {
     text-align: justify;
 }
   
-#offer .container {
+#offer #about .container {
     border-radius: 2%;
     padding: 0 50px;
 }
@@ -327,25 +334,18 @@ footer a:hover {
 /* Media queries - responsiveness */
 
 /* X-small devices, phones in portrait mode 576px*/
-@media (max-width: 480px) {
+@media only screen and (max-width: 576px) {
     body {
       font-size: 1em;
     }
   
     p {
       padding: 10px;
-      text-align: left;
-    }
-  
-    .container-fluid,
-    .container {
-      width: 100%;
-      margin: 50px;
-      padding: 50px;
+      text-align: center;
     }
   
     .accordion-item p {
-      text-align: left;
+      text-align: center;
     }
 
     .booking {
@@ -364,7 +364,7 @@ footer a:hover {
       width: 100%;
     }
   
-    #offer .container {
+    #gallery #offer #about .container {
       border-radius: 0;
       padding: 50px;
     }
@@ -521,11 +521,12 @@ footer a:hover {
       text-align: center;
       background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     }
-    */ .caption h1 {
+
+    .caption h1 {
       top: 40%;
       text-align: center;
-      font-size: 2em;
-      font-weight: 600;
+      font-size: 3em;
+      font-weight: 400;
     }
   
     .caption button {
@@ -533,7 +534,7 @@ footer a:hover {
     }
   
     .caption p {
-      font-size: 1.5em;
+      display: none;
     }
   
     .footer div,
@@ -569,22 +570,6 @@ footer a:hover {
       background-color: #d6edf7;
       border-radius: 1em;
     }
-  
-    /* smaller carousel cover images for mobile use */
-    /* #cover-photo1 {
-      height: 60vh;
-      background: url(https://images.unsplash.com/photo-1632823469850-2f77dd9c7f93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) center / cover;
-    }
-  
-    #cover-photo2 {
-      height: 60vh;
-      background: url(https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80) center / cover;
-    }
-  
-    #cover-photo3 {
-      height: 60vh;
-      background: url(https://images.unsplash.com/photo-1632823469901-5d2cfff5ba50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80) center / cover;
-    } */
   
     .caption {
       width: 100vw;
@@ -629,7 +614,7 @@ footer a:hover {
       top: 40%;
       text-align: center;
       font-size: 2.5em;
-      font-weight: 600;
+      font-weight: 400;
     }
   
     .caption p {
