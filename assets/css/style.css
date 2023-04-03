@@ -327,7 +327,7 @@ footer a:hover {
 /* Media queries - responsiveness */
 
 /* X-small devices, phones in portrait mode 576px*/
-@media (max-width: 575.98px) {
+@media (max-width: 480px) {
     body {
       font-size: 1em;
     }
@@ -371,17 +371,17 @@ footer a:hover {
   
     #cover-photo1 {
       height: 50vh;
-      background: url(../../assets/img/cover1_mobile.webp) center / cover;
+      background: url(https://images.unsplash.com/photo-1632823469850-2f77dd9c7f93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) center / cover;
     }
   
     #cover-photo2 {
       height: 50vh;
-      background: url(../../assets/img/cover2_mobile.webp) center / cover;
+      background: url(https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80) center / cover;
     }
   
     #cover-photo3 {
       height: 50vh;
-      background: url(../../assets/img/cover3_mobile.webp) center / cover;
+      background: url(https://images.unsplash.com/photo-1632823469901-5d2cfff5ba50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80) center / cover;
     }
   
     .caption {
@@ -501,17 +501,17 @@ footer a:hover {
     /* Smaller carousel cover images for mobile use*/
     #cover-photo1 {
       height: 60vh;
-      background: url(../../assets/img/cover1_mobile.webp) center / cover;
+      background: url(https://images.unsplash.com/photo-1632823469850-2f77dd9c7f93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) center / cover;
     }
   
     #cover-photo2 {
       height: 60vh;
-      background: url(../../assets/img/cover2_mobile.webp) center / cover;
+      background: url(https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80) center / cover;
     }
   
     #cover-photo3 {
       height: 60vh;
-      background: url(../../assets/img/cover3_mobile.webp) center / cover;
+      background: url(https://images.unsplash.com/photo-1632823469901-5d2cfff5ba50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80) center / cover;
     }
   
     .caption {
@@ -571,20 +571,20 @@ footer a:hover {
     }
   
     /* smaller carousel cover images for mobile use */
-    #cover-photo1 {
+    /* #cover-photo1 {
       height: 60vh;
-      background: url(../../assets/img/cover1_mobile.webp) center / cover;
+      background: url(https://images.unsplash.com/photo-1632823469850-2f77dd9c7f93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) center / cover;
     }
   
     #cover-photo2 {
       height: 60vh;
-      background: url(../../assets/img/cover2_mobile.webp) center / cover;
+      background: url(https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80) center / cover;
     }
   
     #cover-photo3 {
       height: 60vh;
-      background: url(../../assets/img/cover3_mobile.webp) center / cover;
-    }
+      background: url(https://images.unsplash.com/photo-1632823469901-5d2cfff5ba50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80) center / cover;
+    } */
   
     .caption {
       width: 100vw;
