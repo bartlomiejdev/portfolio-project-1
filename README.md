@@ -105,11 +105,7 @@ Range of offers to get your car next life or to keep it alive!
 ## Deployment
 
 
-<<<<<<< HEAD
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-=======
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
->>>>>>> 1c31a28 (Remove booststrap class from 'offer' section)
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
